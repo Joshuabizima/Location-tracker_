@@ -18,7 +18,7 @@ async function initMap(){
         map: map,
         draggable:false,
         animation: google.maps.Animation.DROP
-    })
+    }) 
 
     
   const  radius = receiver.radius; 
