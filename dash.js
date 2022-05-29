@@ -1,6 +1,6 @@
 const add = document.querySelector("#add");
 const items = document.querySelector("#items");
-let globalURL = window.location.origin.includes("gtihub") ? "https://aviation-frequency.herokuapp.com" : "http://localhost:3000";
+let globalURL = window.location.origin.includes("github") ? "https://aviation-frequency.herokuapp.com" : "http://localhost:3000";
 
 
 add.addEventListener("click",async (e)=>{
